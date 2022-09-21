@@ -11,8 +11,31 @@
   }
 
   @media (min-width: 1440px) {
-    max-width: 1110px;
+    max-width: 1200px;
   }
 
   @content;
+}
+
+@mixin offset {
+  padding: 50px 0;
+
+  @media (min-width: 768px) {
+    padding: 70px 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 80px 0;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 90px 0;
+  }
+}
+
+@mixin section_title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--black);
 }
