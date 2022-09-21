@@ -1,0 +1,43 @@
+@import '../../../scss/mixins.scss';
+
+.hero {
+  background: linear-gradient(180deg, #a2d2ff 0%, #bde0fe 100%);
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  @include section_container;
+  height: 500px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.text {
+  margin: 15px 0 45px 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 60px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--black);
+  background-color: var(--white);
+}
