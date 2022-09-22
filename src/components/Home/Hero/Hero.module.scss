@@ -1,43 +1,58 @@
 @import '../../../scss/mixins.scss';
 
 .hero {
-  background: linear-gradient(180deg, #a2d2ff 0%, #bde0fe 100%);
+  background: url('../../../assets/img/background-hero.png'), var(--black) no-repeat;
+  background-size: cover;
 }
 
 .container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   @include section_container;
-  height: 500px;
+  height: 700px;
 }
 
 .title {
   font-weight: 700;
   font-size: 64px;
   line-height: 120%;
-  color: var(--black);
+  color: var(--white);
+  text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
 }
 
 .text {
-  margin: 15px 0 45px 0;
+  margin: 30px 0 30px 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
-  color: var(--black);
+  color: var(--gray);
 }
 
 .link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 60px;
-  border-radius: 25px;
+  width: 220px;
+  height: 65px;
+  border-radius: 50px;
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--white);
+  background: var(--gradient);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &:active {
+    transform: translate(0);
+  }
+
+  &:focus-visible {
+    transform: translateY(-5px);
+  }
 }
