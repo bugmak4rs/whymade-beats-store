@@ -1,7 +1,7 @@
 @import '../../../scss/mixins.scss';
 
 .prod {
-  background: linear-gradient(180deg, #bde0fe 0%, #a2d2ff 100%);
+  background: var(--black);
 }
 
 .container {
@@ -23,5 +23,4 @@
   grid-template-rows: 1fr;
   grid-column-gap: 50px;
   grid-row-gap: 0px;
-  margin: 0 0 30px 0;
 }
