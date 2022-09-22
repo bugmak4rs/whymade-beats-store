@@ -8,7 +8,7 @@ const Prod: FC = () => {
     <section className={style.prod} id={'prod'}>
       <div className={style.container}>
         <div className={style.offset}>
-          <h2 className={style.title}>Title</h2>
+          <h2 className={style.title}>Prod</h2>
           <div className={style.cards}>
             <ProdCard image={''} />
             <ProdCard image={''} />
