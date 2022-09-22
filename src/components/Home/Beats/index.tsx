@@ -8,7 +8,7 @@ const Beats: FC = () => {
     <section className={style.beats} id={'beats'}>
       <div className={style.container}>
         <div className={style.offset}>
-          <h2 className={style.title}>Title</h2>
+          <h2 className={style.title}>Beats</h2>
           <div className={style.cards}>
             <BeatsCard image={''} />
             <BeatsCard image={''} />
@@ -16,9 +16,6 @@ const Beats: FC = () => {
             <BeatsCard image={''} />
             <BeatsCard image={''} />
           </div>
-          <a href="https://t.me/whymade" target={'_blank'} className={style.more}>
-            All beats can be found in telegram.
-          </a>
         </div>
       </div>
     </section>
