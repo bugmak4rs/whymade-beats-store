@@ -6,7 +6,7 @@ const Hero: FC = () => {
   return (
     <section className={style.hero} id={'hero'}>
       <div className={style.container}>
-        <h1 className={style.title}>Title</h1>
+        <h1 className={style.title}>I made this!</h1>
         <p className={style.text}>I make the freshest beats in all the latest styles.</p>
         <Link to={'/beats'} className={style.link}>
           get swag
