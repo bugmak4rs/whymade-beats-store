@@ -1,11 +1,13 @@
 @import '../../../scss/mixins.scss';
 
 .beats {
-  background-color: var(--white);
+  background: url('../../../assets/img/background-beats.png'), var(--black) no-repeat;
+  background-size: cover;
 }
 
 .container {
   @include section_container;
+  height: 765px;
 }
 
 .offset {
