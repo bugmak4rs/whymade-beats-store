@@ -1,13 +1,11 @@
 @import '../../../scss/mixins.scss';
 
 .beats {
-  background: url('../../../assets/img/background-beats.png'), var(--black) no-repeat;
-  background-size: cover;
+  background-color: var(--black);
 }
 
 .container {
   @include section_container;
-  height: 765px;
 }
 
 .offset {
@@ -15,7 +13,7 @@
 }
 
 .title {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   @include section_title;
 }
 
