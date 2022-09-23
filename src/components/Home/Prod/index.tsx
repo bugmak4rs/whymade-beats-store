@@ -13,7 +13,7 @@ const Prod: FC = () => {
     <section className={style.prod} id={'prod'}>
       <div className={style.container}>
         <div className={style.offset}>
-          <h2 className={style.title}>Prod</h2>
+          <h2 className={style.title}>Prod.</h2>
           <div className={style.cards}>
             <ProdCard image={iayze} price={20} bpm={133} name={'UP!'} />
             <ProdCard image={slumps} price={50} bpm={142} name={'hood&friends'} />
