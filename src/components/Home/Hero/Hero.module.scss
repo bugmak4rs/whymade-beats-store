@@ -1,8 +1,7 @@
 @import '../../../scss/mixins.scss';
 
 .hero {
-  background: url('../../../assets/img/background-hero.png'), var(--black) no-repeat;
-  background-size: cover;
+  background-color: var(--black);
 }
 
 .container {
