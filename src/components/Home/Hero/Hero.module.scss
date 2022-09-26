@@ -1,7 +1,7 @@
 @import '../../../scss/mixins.scss';
 
 .hero {
-  background: url('../../../assets/img/background-hero-top.png') var(--black) no-repeat;
+  background: url('../../../assets/img/background-hero.svg') center center var(--black) no-repeat;
 }
 
 .container {
@@ -10,7 +10,7 @@
   justify-content: center;
   flex-direction: column;
   @include section_container;
-  height: 915px;
+  height: 700px;
 }
 
 .title {
@@ -36,12 +36,18 @@
   width: 220px;
   height: 65px;
   border-radius: 50px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 120%;
-  color: var(--white);
-  background: var(--gradient);
+  background: var(--white);
   transition: all 0.3s ease;
+
+  span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--white);
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   &:hover {
     transform: translateY(-5px);
