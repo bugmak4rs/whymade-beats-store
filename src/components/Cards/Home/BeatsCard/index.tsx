@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
 
 import style from './Beats.module.scss';
 
@@ -12,13 +13,17 @@ interface IBeatsCard {
 const BeatsCard: FC<IBeatsCard> = ({ image, price, bpm, name }) => {
   return (
     <div className={style.card}>
-      <img src={image} className={style.image} />
-      <div className={style.content}>
-        <p>
-          <span>{price}$</span> • {bpm} BPM{' '}
-        </p>
-        <span>{name}</span>
-      </div>
+      <Link to="">
+        <img src={image} className={style.image} />
+      </Link>
+      <Link to="">
+        <div className={style.content}>
+          <p>
+            <span>{price}$</span> • {bpm} BPM{' '}
+          </p>
+          <span>{name}</span>
+        </div>
+      </Link>
     </div>
   );
 };
