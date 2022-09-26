@@ -1,7 +1,7 @@
 @import '../../../scss/mixins.scss';
 
 .beats {
-  background-color: var(--black);
+  background: url('../../../assets/img/background-home.svg') center center var(--black) no-repeat;
 }
 
 .container {
