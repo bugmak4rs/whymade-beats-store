@@ -1,0 +1,71 @@
+@import '../../../scss/mixins.scss';
+
+.hero {
+  background-color: var(--black);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include section_container;
+  height: 100vh;
+}
+
+.offset {
+  display: flex;
+  justify-content: space-between;
+  @include offset;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.vocation {
+  margin: 0 0 20px 0;
+  width: max-content;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.credits {
+  width: 690px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.offers {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--white);
+
+  a {
+    color: var(--gray);
+  }
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
