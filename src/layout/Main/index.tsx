@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Beats from '../../pages/Beats';
-import Contacts from '../../pages/Contacts';
+import AboutMe from '../../pages/AboutMe';
 import Home from '../../pages/Home';
 
 const Main: FC = () => {
@@ -11,7 +11,7 @@ const Main: FC = () => {
       <Routes>
         <Route path={'/'} element={<Home />} />
         <Route path={'/beats'} element={<Beats />} />
-        <Route path={'/contacts'} element={<Contacts />} />
+        <Route path={'/about-me'} element={<AboutMe />} />
         {/* <Route path={'*'} element={<NotFound />} /> */}
       </Routes>
     </main>
