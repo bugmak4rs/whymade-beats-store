@@ -53,6 +53,12 @@
   color: var(--white);
 }
 
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .offers {
   font-weight: 600;
   font-size: 24px;
@@ -61,6 +67,16 @@
 
   a {
     color: var(--gray);
+  }
+}
+
+.socials {
+  display: flex;
+
+  a {
+    &:not(:last-child) {
+      margin: 0 5px 0 0;
+    }
   }
 }
 
