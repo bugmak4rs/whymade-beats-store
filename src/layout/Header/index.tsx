@@ -13,7 +13,7 @@ const Header: FC = () => {
         <nav className={style.nav}>
           <Link to={'/'}>Home</Link>
           <Link to={'/beats'}>Beats</Link>
-          <Link to={'/contacts'}>Contacts</Link>
+          <Link to={'/about-me'}>About me</Link>
         </nav>
       </div>
     </header>
