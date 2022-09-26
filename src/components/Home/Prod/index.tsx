@@ -15,10 +15,10 @@ const Prod: FC = () => {
         <div className={style.offset}>
           <h2 className={style.title}>Prod.</h2>
           <div className={style.cards}>
-            <ProdCard image={iayze} price={20} bpm={133} name={'UP!'} />
-            <ProdCard image={slumps} price={50} bpm={142} name={'hood&friends'} />
-            <ProdCard image={kencarson} price={30} bpm={148} name={'planets'} />
-            <ProdCard image={richamiri} price={20} bpm={147} name={'Love off'} />
+            <ProdCard image={iayze} name={'FrankSouth'} track={'UP!'} />
+            <ProdCard image={slumps} name={'Lil Down'} track={'hood&friends'} />
+            <ProdCard image={kencarson} name={'Young Nigga'} track={'planets'} />
+            <ProdCard image={richamiri} name={'Dudkid'} track={'Love off'} />
           </div>
         </div>
       </div>
