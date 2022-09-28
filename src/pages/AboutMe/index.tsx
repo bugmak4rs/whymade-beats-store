@@ -9,7 +9,7 @@ import style from './AboutMe.module.scss';
 
 const AboutMe: FC = () => {
   return (
-    <section className={style.hero} id={'hero'}>
+    <section className={style.aboutme} id={'about-me'}>
       <div className={style.container}>
         <div className={style.offset}>
           <div className={style.content}>
