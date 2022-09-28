@@ -12,25 +12,13 @@
   height: 100vh;
 }
 
-.back {
-  margin: 0 0 20px 0;
-  width: max-content;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 120%;
-  background: var(--gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
 .title {
   margin: 0 0 40px 0;
   font-weight: 600;
   font-size: 36px;
   line-height: 120%;
   color: var(--white);
+  text-align: center;
 }
 
 .collums {
