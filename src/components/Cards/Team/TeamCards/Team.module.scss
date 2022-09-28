@@ -1,0 +1,51 @@
+.card {
+  margin: 20px 0 0 0;
+  padding: 20px;
+  width: 380px;
+  border-radius: 10px;
+  background-color: var(--white);
+
+  &__main {
+    display: flex;
+  }
+
+  &__image {
+    margin: 0 20px 0 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__name {
+    width: 150px;
+    max-width: max-content;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--black);
+  }
+
+  &__social {
+    display: flex;
+
+    a {
+      &:not(:last-child) {
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+
+  &__description {
+    margin: 20px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--black);
+  }
+}
