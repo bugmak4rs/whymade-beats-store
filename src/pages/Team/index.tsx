@@ -11,9 +11,6 @@ const Team: FC = () => {
   return (
     <section className={style.team} id={'team'}>
       <div className={style.container}>
-        <Link to={'/'} className={style.back}>
-          Назад
-        </Link>
         <h1 className={style.title}>Команда разработчиков</h1>
         <div className={style.collums}>
           <div className={style.frontend}>
