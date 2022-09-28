@@ -1,0 +1,33 @@
+@import '../../scss/mixins.scss';
+
+.notfound {
+  background-color: var(--black);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @include section_container;
+  height: 100vh;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.back {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
