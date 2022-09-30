@@ -1,4 +1,6 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
+
 import BeatsCard from '../../Cards/Home/BeatsCard';
 
 import iayze from '../../../assets/img/beats/iayze.png';
@@ -19,6 +21,11 @@ const Beats: FC = () => {
             <BeatsCard image={slumps} price={50} bpm={142} name={'hood&friends'} />
             <BeatsCard image={kencarson} price={30} bpm={148} name={'planets'} />
             <BeatsCard image={richamiri} price={20} bpm={147} name={'Love off'} />
+          </div>
+          <div className={style.more}>
+            <Link className={style.more__link} to={'/beats'}>
+              <span>Show more</span>
+            </Link>
           </div>
         </div>
       </div>
