@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-import Beats from '../../components/Home/Beats';
 import Hero from '../../components/Home/Hero';
+import Beats from '../../components/Home/Beats';
 import Prod from '../../components/Home/Prod';
 
 const Home: FC = () => {
