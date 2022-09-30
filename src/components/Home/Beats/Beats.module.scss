@@ -21,3 +21,28 @@
   display: flex;
   justify-content: space-between;
 }
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background: var(--white);
+
+    span {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 120%;
+      background-image: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
