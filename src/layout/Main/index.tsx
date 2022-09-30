@@ -2,8 +2,9 @@ import React, { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from '../../pages/Home';
-import AboutMe from '../../pages/AboutMe';
 import Beats from '../../pages/Beats';
+import LoopKits from '../../pages/LoopKits';
+import AboutMe from '../../pages/AboutMe';
 import Team from '../../pages/Team';
 import NotFound from '../../pages/NotFound';
 
@@ -12,8 +13,9 @@ const Main: FC = () => {
     <main>
       <Routes>
         <Route path={'/'} element={<Home />} />
-        <Route path={'/about-me'} element={<AboutMe />} />
         <Route path={'/beats'} element={<Beats />} />
+        <Route path={'/loopkits'} element={<LoopKits />} />
+        <Route path={'/about'} element={<AboutMe />} />
         <Route path={'/team'} element={<Team />} />
         <Route path={'*'} element={<NotFound />} />
       </Routes>
