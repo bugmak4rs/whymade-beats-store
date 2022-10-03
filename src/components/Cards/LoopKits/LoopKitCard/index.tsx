@@ -15,10 +15,10 @@ const LoopKitCard: FC<ILoopKitCard> = ({ image, title, author, price, link }) =>
     <div className={style.card}>
       <img className={style.card__image} src={image} alt="LoopKit" />
       <div className={style.card__content}>
-        <h3 className={style.card__content__title}>{title}</h3>
-        <p className={style.card__content__author}>{author}</p>
-        <p className={style.card__content__price}>{price} $</p>
-        <a className={style.card__content__link} href={link} target={'_blank'}>
+        <h3 className={style.card__title}>{title}</h3>
+        <p className={style.card__author}>{author}</p>
+        <p className={style.card__price}>{price} $</p>
+        <a className={style.card__link} href={link} target={'_blank'}>
           Get
         </a>
       </div>
