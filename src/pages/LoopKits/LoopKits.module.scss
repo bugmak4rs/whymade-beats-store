@@ -1,0 +1,29 @@
+@import '../../scss/mixins.scss';
+
+.loopkits {
+  background-color: var(--black);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include section_container;
+  height: 100vh;
+}
+
+.offset {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include offset;
+}
+
+.title {
+  margin: 0 0 40px 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--white);
+  text-align: center;
+}
