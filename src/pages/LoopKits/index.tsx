@@ -13,10 +13,10 @@ const LoopKits: FC = () => {
           <h2 className={style.title}>Loop Kits</h2>
           <LoopKitCard
             image={test}
-            title={'Made This'}
-            author={'Made This'}
+            title={'Damage Sound Kit'}
             price={10}
-            link={'Made This'}
+            author={'@whymade'}
+            link={'https://vk.com/wall-194370087_1681'}
           />
         </div>
       </div>
