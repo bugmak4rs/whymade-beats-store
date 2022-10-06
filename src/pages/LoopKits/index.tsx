@@ -13,9 +13,9 @@ const LoopKits: FC = () => {
           <h2 className={style.title}>Loop Kits</h2>
           <LoopKitCard
             image={test}
-            title={'Damage Sound Kit'}
             price={10}
             author={'@whymade'}
+            title={'Damage Sound Kit'}
             link={'https://vk.com/wall-194370087_1681'}
           />
         </div>
