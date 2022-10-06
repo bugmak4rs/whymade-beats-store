@@ -19,7 +19,7 @@ const BeatsCard: FC<IBeatsCard> = ({ image, price, bpm, name }) => {
       <Link to="">
         <div className={style.content}>
           <p>
-            <span>{price}$</span> • {bpm} BPM{' '}
+            <span>{price}$</span> • {bpm} BPM
           </p>
           <span>{name}</span>
         </div>
