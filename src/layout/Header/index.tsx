@@ -15,7 +15,7 @@ const Header: FC = () => {
         <nav className={style.nav}>
           <Link to={'/'}>Home</Link>
           <Link to={'/beats'}>Beats</Link>
-          <Link to={'/loopkits'}>Loops</Link>
+          <Link to={'/loops'}>Loops</Link>
           <Link to={'/about'}>About</Link>
         </nav>
         <button className={style.burger} arial-label={'всплывающие меню'}>
