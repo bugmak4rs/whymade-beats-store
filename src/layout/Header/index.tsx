@@ -1,6 +1,8 @@
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 
+import { Burger } from './icon';
+
 import style from './Header.module.scss';
 
 const Header: FC = () => {
@@ -16,6 +18,9 @@ const Header: FC = () => {
           <Link to={'/loopkits'}>Loops</Link>
           <Link to={'/about'}>About</Link>
         </nav>
+        <button className={style.burger} arial-label={'всплывающие меню'}>
+          <Burger />
+        </button>
       </div>
     </header>
   );
