@@ -13,16 +13,15 @@ interface ILoopKitCard {
 const LoopKitCard: FC<ILoopKitCard> = ({ image, title, author, price, link }) => {
   return (
     <div className={style.card}>
-      <img className={style.card__image} src={image} alt="LoopKit" />
-      <div className={style.card__content}>
-        <p className={style.card__info}>
-          <span className={style.card__price}>{price}$</span> • {author}
-        </p>
-        <h3 className={style.card__title}>{title}</h3>
-        <a className={style.card__link} href={link} target={'_blank'}>
-          Get
-        </a>
-      </div>
+      <a className={style.card__link} href={link} target={'_blank'}>
+        <img className={style.card__image} src={image} alt="LoopKit" />
+        <div className={style.card__content}>
+          <p className={style.card__info}>
+            <span className={style.card__price}>{price}$</span> • {author}
+          </p>
+          <h3 className={style.card__title}>{title}</h3>
+        </div>
+      </a>
     </div>
   );
 };
