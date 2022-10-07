@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
 import TeamCard from '../../components/Cards/Team/TeamCards';
 
 import aleksey from '../../assets/img/team/aleksey.jpg';
@@ -11,7 +10,7 @@ const Team: FC = () => {
   return (
     <section className={style.team} id={'team'}>
       <div className={style.container}>
-        <h1 className={style.title}>Команда разработчиков</h1>
+        <h1 className={style.title}>Development team</h1>
         <div className={style.collums}>
           <div className={style.frontend}>
             <div className={style.direction}>
