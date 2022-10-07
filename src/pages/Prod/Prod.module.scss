@@ -1,0 +1,26 @@
+@import '../../scss/mixins.scss';
+
+.prod {
+  background-color: var(--black);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include section_container;
+  height: 100vh;
+}
+
+.offset {
+  display: flex;
+  justify-content: space-between;
+  @include offset;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--white);
+}
