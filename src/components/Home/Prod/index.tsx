@@ -1,4 +1,6 @@
 import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
+
 import ProdCard from '../../Cards/Home/ProdCard';
 
 import iayze from '../../../assets/img/beats/iayze.png';
@@ -19,6 +21,11 @@ const Prod: FC = () => {
             <ProdCard image={slumps} name={'Lil Down'} track={'hood&friends'} />
             <ProdCard image={kencarson} name={'Young Nigga'} track={'planets'} />
             <ProdCard image={richamiri} name={'Dudkid'} track={'Love off'} />
+          </div>
+          <div className={style.more}>
+            <Link className={style.more__link} to={'/prod'}>
+              <span>Show more</span>
+            </Link>
           </div>
         </div>
       </div>
