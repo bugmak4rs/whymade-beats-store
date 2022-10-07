@@ -6,15 +6,12 @@
 
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   @include section_container;
-  height: 100vh;
 }
 
 .offset {
-  display: flex;
-  justify-content: space-between;
   @include offset;
 }
 
@@ -23,4 +20,23 @@
   font-size: 48px;
   line-height: 120%;
   color: var(--white);
+}
+
+.description {
+  margin: 10px 0 0 0;
+  width: max-content;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
 }
