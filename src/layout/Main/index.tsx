@@ -14,7 +14,7 @@ const Main: FC = () => {
       <Routes>
         <Route path={'/'} element={<Home />} />
         <Route path={'/beats'} element={<Beats />} />
-        <Route path={'/loopkits'} element={<LoopKits />} />
+        <Route path={'/loops'} element={<LoopKits />} />
         <Route path={'/about'} element={<AboutMe />} />
         <Route path={'/team'} element={<Team />} />
         <Route path={'*'} element={<NotFound />} />
