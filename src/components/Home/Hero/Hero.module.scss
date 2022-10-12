@@ -1,51 +1,77 @@
 @import '../../../scss/mixins.scss';
 
 .hero {
-  background: url('../../../assets/img/background-hero.svg') center center var(--black) no-repeat;
+  background-color: var(--black);
+
+  @media (min-width: 768px) {
+    background: url('../../../assets/img/background-hero.svg') center center var(--black) no-repeat;
+  }
 }
 
 .container {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   @include section_container;
-  height: 700px;
+  height: 400px;
+
+  @media (min-width: 768px) {
+    align-items: center;
+    height: 700px;
+  }
 }
 
 .title {
   font-weight: 700;
-  font-size: 64px;
+  font-size: 40px;
   line-height: 120%;
   color: var(--white);
+
+  @media (min-width: 768px) {
+    font-size: 64px;
+  }
 }
 
 .text {
-  margin: 30px 0 30px 0;
+  margin: 20px 0 40px 0;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 120%;
   color: var(--gray);
+
+  @media (min-width: 768px) {
+    margin: 30px 0 30px 0;
+    font-size: 24px;
+  }
 }
 
 .link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 220px;
-  height: 65px;
+  width: 100%;
+  height: 50px;
   border-radius: 50px;
   background: var(--white);
   transition: all 0.3s ease;
 
+  @media (min-width: 768px) {
+    width: 220px;
+    height: 65px;
+  }
+
   span {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 120%;
     color: var(--white);
     background-image: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   &:hover {
