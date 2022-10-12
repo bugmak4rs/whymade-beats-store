@@ -1,0 +1,14 @@
+@import '../../scss/mixins.scss';
+
+.beats {
+  background-color: var(--black);
+}
+
+.container {
+  @include section_container;
+  height: 100vh;
+}
+
+.offset {
+  @include offset;
+}
